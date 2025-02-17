@@ -12,3 +12,9 @@ This repository includes the clustering (conventional and HistStream) results of
 ![img](./ClusRes_images/conv_res.png)
 *_Fig1. Mean results of all clustering algorithms (using convnetional approaches)_*
 
+<p align="center">
+  <img src="./ClusRes_images/conv_res.png" alt="Alt text" width="300">
+  <br>
+  <b>This is the title of the image</b>
+</p>
+

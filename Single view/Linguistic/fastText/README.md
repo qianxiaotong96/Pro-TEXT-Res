@@ -52,7 +52,7 @@ Finally, **pause_simpleLSTM** is chosen as the final representation based on fas
   <b>Fig4. Mean results of each clustering algorithm (using convnetional approaches) </b>
 </p>
 
-Since **Agglomerative![image](https://github.com/user-attachments/assets/d3af05c4-789b-45cd-a8b2-47899a27bb6c)** win the most, save only the clustering results of KMeans with saved file name **_fastText_pause_LSTM_KMeans.xlsx_** (A new column called 'label/class' is added to the original file to indicate the clustering results.)
+Since **Agglomerative** win the most, save only the clustering results of KMeans with saved file name **_fastText_pause_LSTM_Agglomerative.xlsx_** (A new column called 'label/class' is added to the original file to indicate the clustering results.)
 
 <p align="center">
   <img src="./ClusRes_images/hist_visualization.png" alt="hist_visualization.png">
@@ -66,9 +66,9 @@ Since **Agglomerative![image](https://github.com/user-attachments/assets/d3af05c
   <b>Fig6. Mean results of each clustering algorithm (using proposed HistStream framework) </b>
 </p>
 
-Since no one win the most, according to the visulization results, save the clustering results of **HDBSCAN_HistStream** with saved file name **_fastText_pause_LSTM_HDBSCAN_HistStream.xlsx_** (A new column called 'label/class' is added to the original file to indicate the clustering results.)
+Since no one win the most, according to the visulization results, save the clustering results of **DBSCAN_HistStream** with saved file name **_fastText_pause_LSTM_DBSCAN_HistStream.xlsx_** (A new column called 'label/class' is added to the original file to indicate the clustering results.)
 
 ## Summary
 
 - Burst embedding results for use : **_fastText_pause_LSTM.pickle_**   
-- Clustering results : **_fastText_pause_LSTM_KMeans.xlsx_** and **_fastText_pause_LSTM_HDBSCAN_HistStream.xlsx_**
+- Clustering results : **_fastText_pause_LSTM_Agglomerative.xlsx_** and **_fastText_pause_LSTM_DBSCAN_HistStream.xlsx_**

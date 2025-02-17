@@ -66,12 +66,12 @@ Finally, **pause_simpleLSTM** is chosen as the final representation based on Spa
   <b>Fig6. Mean results of each clustering algorithm (using proposed HistStream framework)</b>
 </p>
 
-**KMeans_HistStream** win the most, save the clustering results in the file named **__SpaCy_pause_LSTM_KMeans_HistStreams.xlsx_** 
+**KMeans_HistStream** win the most, save the clustering results in the file named **_SpaCy_pause_LSTM_KMeans_HistStreams.xlsx_** 
 
 ## Summary
 
 - Burst embedding results for use : **_SpaCy_pause_LSTM.pickle_**   
-- Clustering results : **_SpaCy_pause_LSTM_Agglomerative.xlsx_** and **__SpaCy_pause_LSTM_KMeans_HistStreams.xlsx_**
+- Clustering results : **_SpaCy_pause_LSTM_Agglomerative.xlsx_** and **_SpaCy_pause_LSTM_KMeans_HistStreams.xlsx_**
 
 ($\color{red}{\text{The clustering result files contain the original dataset information and a new column called 'label/class' which indicates the clustering results.}}$) 
 

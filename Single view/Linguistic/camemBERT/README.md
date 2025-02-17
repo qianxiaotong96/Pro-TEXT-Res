@@ -26,7 +26,7 @@ According to the mean results of each representation (tables above), choose the 
 - pause_simpleLSTM (7 times)
 - pctpause_doubleLSTM (1 time)
 
-Finally, <pre style="color:#f48522;"><code>pause_simpleLSTM</code></pre> is chosen as the final representation based on CamemBERT with saved file name : **_camemBERT_pause_LSTM.pickle_**
+Finally, **pause_simpleLSTM** is chosen as the final representation based on CamemBERT with saved file name : **_camemBERT_pause_LSTM.pickle_**
 
 ```python
 # Load dataset 
@@ -51,7 +51,7 @@ Finally, <pre style="color:#f48522;"><code>pause_simpleLSTM</code></pre> is chos
   <b>Fig4. Mean results of each clustering algorithm (using convnetional approaches) </b>
 </p>
 
-Since $${\color{#f48522}KMeans}$$ win the most, save only the clustering results of KMeans with saved file name **_camemBERT_pause_LSTM_KMeans.xlsx_** (A new column called 'label/class' is added to the original file to indicate the clustering results.)
+Since **KMeans** win the most, save only the clustering results of KMeans with saved file name **_camemBERT_pause_LSTM_KMeans.xlsx_** (A new column called 'label/class' is added to the original file to indicate the clustering results.)
 
 <p align="center">
   <img src="./ClusRes_images/hist_visualization.png" alt="hist_visualization.png">
@@ -65,7 +65,7 @@ Since $${\color{#f48522}KMeans}$$ win the most, save only the clustering results
   <b>Fig6. Mean results of each clustering algorithm (using proposed HistStream framework) </b>
 </p>
 
-Since no one win the most, according to the visulization results, save the clustering results of <span style="color:#f48522; font-family: italic">HDBSCAN_HistStream</span> with saved file name **_camemBERT_pause_LSTM_HDBSCAN_HistStream.xlsx_** (A new column called 'label/class' is added to the original file to indicate the clustering results.)
+Since no one win the most, according to the visulization results, save the clustering results of **HDBSCAN_HistStream** with saved file name **_camemBERT_pause_LSTM_HDBSCAN_HistStream.xlsx_** (A new column called 'label/class' is added to the original file to indicate the clustering results.)
 
 ## Summary
 

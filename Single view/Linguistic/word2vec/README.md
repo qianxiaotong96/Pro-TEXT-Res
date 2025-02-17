@@ -56,13 +56,13 @@ Since **Agglomerative** win the most, save only the clustering results of KMeans
 <p align="center">
   <img src="./ClusRes_images/hist_visualization.png" alt="hist_visualization.png">
   <br>
-  <b> Fig5. Clustering visualization of each clustering algorithm (using proposed HistStream framework)</b>
+  <b>Fig5. Clustering visualization of each clustering algorithm (using proposed HistStream framework)</b>
 </p>
 
 <p align="center">
   <img src="./ClusRes_images/hist_mean_Summary.png" alt="hist_mean_Summary.png">
   <br>
-  <b>Fig6. Mean results of each clustering algorithm (using proposed HistStream framework) </b>
+  <b>Fig6. Mean results of each clustering algorithm (using proposed HistStream framework)</b>
 </p>
 
 Since no one win the most, according to the visulization results, save the clustering results of **DBSCAN_HistStream** with saved file name **_word2vec_pause_LSTM_DBSCAN_HistStream.xlsx_** (A new column called 'label/class' is added to the original file to indicate the clustering results.)

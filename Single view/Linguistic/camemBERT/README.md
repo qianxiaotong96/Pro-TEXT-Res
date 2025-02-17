@@ -72,7 +72,7 @@ Since no one win the most, according to the visulization results, save the clust
 - Burst embedding results for use : **_camemBERT_pause_LSTM.pickle_**   
 - Clustering results : **_camemBERT_pause_LSTM_KMeans.xlsx_** and **_camemBERT_pause_LSTM_HDBSCAN_HistStream.xlsx_**
 
-($\color{red}{\text{The clustering result files contain the original dataset information and a new column called 'label/class' which indicates the clustering results.}}$)
+($\color{red}{\text{The clustering result files contain the original dataset information and a new column called 'label/class' which indicates the clustering results.}}$) 
 
 
 

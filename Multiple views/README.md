@@ -3,7 +3,7 @@ After the steps of selecting the representative dataset in Single view section, 
 
 | MvDataset Name  | Semantic view                         | Static view | Linguistic view      |
 | --------------- | ------------------------------------- | ----------- | -------------------- |
-| mvProTEXT_0     | sentenceTransformer_pctpause          |  statistic  | camemBERT_pause_LSTM |
+| mvProTEXT_0     | _sentenceTransformer_pctpause_          |  statistic  | camemBERT_pause_LSTM |
 | mvProTEXT_1     | sentenceTransformer_pctpause          |  statistic  | fastText_pause_LSTM  |
 | mvProTEXT_2     | sentenceTransformer_pctpause          |  statistic  | word2vec_pause_LSTM  | 
 | mvProTEXT_3     | sentenceTransformerCamemBERT_pctpause |  statistic  | camemBERT_pause_LSTM |

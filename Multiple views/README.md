@@ -1,5 +1,5 @@
 # Summary
-After the steps of selecting the representative dataset in Single view section, the compose of multi-view datastes could be summarized as follow :
+After the steps of selecting the representative dataset in Single view section, the composition of multi-view datastes could be summarized as follow :
 
 | MvDataset Name        | Semantic view                           | Static view   | Linguistic view        |
 | --------------------- | --------------------------------------- | ------------- | ---------------------- |
@@ -21,3 +21,6 @@ After the steps of selecting the representative dataset in Single view section, 
 | **_mvProTEXT_15_**    | _word2vec_pause_LSTM_                   |  _statistic_  | _camemBERT_pause_LSTM_ |
 | **_mvProTEXT_16_**    | _word2vec_pause_LSTM_                   |  _statistic_  | _fastText_pause_LSTM_  |
 | **_mvProTEXT_17_**    | _word2vec_pause_LSTM_                   |  _statistic_  | _word2vec_pause_LSTM_  | 
+
+And we could find in the following figures a simple visualization of each dataset with t_SNE dimension reduction 
+

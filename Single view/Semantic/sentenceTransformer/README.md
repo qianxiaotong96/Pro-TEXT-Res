@@ -4,9 +4,9 @@ This repository includes the clustering (conventional and HistStream) results of
 
 ## First step -- Select the final representative dataset for clustering application.
 
-- **_sentenceTransformer_** : dataset obtained by applying $${\color{#326a95}sentenceTransformer}$$ as burst embedding model;
-- **_sentenceTransformer_pause.pickle_** : dataset obtained by applying $${\color{#326a95}sentenceTransformer}$$ as burst embedding model, and also trained to predict pause duration ($${\color{#326a95}pause}$$);
-- **_sentenceTransformer_pctpause.pickle_** : dataset obtained by applying $${\color{#326a95}sentenceTransformer}$$ as burst embedding model, and also trained to predict percentage of the pause duration ($${\color{#326a95}pctause}$$);
+- **_sentenceTransformer_** : dataset obtained by applying $${\color{#326a95}sentenceTransformer}$$ as burst embedding model directly;
+- **_sentenceTransformer_pause.pickle_** : dataset obtained by applying $${\color{#326a95}sentenceTransformer}$$ as burst embedding model, trained to predict pause duration ($${\color{#326a95}pause}$$);
+- **_sentenceTransformer_pctpause.pickle_** : dataset obtained by applying $${\color{#326a95}sentenceTransformer}$$ as burst embedding model, trained to predict percentage of the pause duration ($${\color{#326a95}pctause}$$);
 
 <p align="center">
   <img src="./ClusRes_images/conv_res.png" alt="conv_res.png">

@@ -51,7 +51,7 @@ Finally, **pause_simpleLSTM** is chosen as the final representation based on wor
   <b>Fig4. Mean results of each clustering algorithm (using convnetional approaches)</b>
 </p>
 
-Since **Agglomerative** win the most, save only the clustering results of KMeans with saved file name **_word2vec_pause_LSTM_Agglomerative.xlsx_** (A new column called 'label/class' is added to the original file to indicate the clustering results.)
+**Agglomerative** win the most, save the clustering results in the file named **_word2vec_pause_LSTM_Agglomerative.xlsx_** 
 
 <p align="center">
   <img src="./ClusRes_images/hist_visualization.png" alt="hist_visualization.png">
@@ -65,9 +65,11 @@ Since **Agglomerative** win the most, save only the clustering results of KMeans
   <b>Fig6. Mean results of each clustering algorithm (using proposed HistStream framework)</b>
 </p>
 
-Since no one win the most, according to the visulization results, save the clustering results of **DBSCAN_HistStream** with saved file name **_word2vec_pause_LSTM_DBSCAN_HistStream.xlsx_** (A new column called 'label/class' is added to the original file to indicate the clustering results.)
+**DBSCAN_HistStream** win the most, save the clustering results in the file named **_word2vec_pause_LSTM_DBSCAN_HistStream.xlsx_**
 
 ## Summary
 
 - Burst embedding results for use : **_word2vec_pause_LSTM.pickle_**   
 - Clustering results : **_word2vec_pause_LSTM_Agglomerative.xlsx_** and **_word2vec_pause_LSTM_DBSCAN_HistStream.xlsx_**
+
+($\color{red}{\text{The clustering result files contain the original dataset information and a new column called 'label/class' which indicates the clustering results.}}$)

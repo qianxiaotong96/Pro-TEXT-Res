@@ -24,3 +24,26 @@ After the steps of selecting the representative dataset in Single view section, 
 
 And we could find in the following figures a simple visualization of each dataset with t_SNE dimension reduction 
 
+<p align="center">
+  <img src="./MvDatasets_visualization/mvProTEXT_0_tSNE.png" alt="hist_mean_Summary.png">
+  <br>
+  <b>Fig1. Visualization with t_SNE dimension reduction of dataset mvProTEXT_0</b>
+</p>
+
+<p align="center">
+  <img src="./MvDatasets_visualization/mvProTEXT_1_tSNE.png" alt="hist_mean_Summary.png">
+  <br>
+  <b>Fig2. Visualization with t_SNE dimension reduction of dataset mvProTEXT_1</b>
+</p>
+
+<p align="center">
+  <img src="./MvDatasets_visualization/mvProTEXT_2_tSNE.png" alt="hist_mean_Summary.png">
+  <br>
+  <b>Fig3. Visualization with t_SNE dimension reduction of dataset mvProTEXT_2</b>
+</p>
+
+<p align="center">
+  <img src="./MvDatasets_visualization/mvProTEXT_3_tSNE.png" alt="hist_mean_Summary.png">
+  <br>
+  <b>Fig4. Visualization with t_SNE dimension reduction of dataset mvProTEXT_3</b>
+</p>

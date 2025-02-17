@@ -1,4 +1,4 @@
-# Description
+![clusres_HistStream_Summary2](https://github.com/user-attachments/assets/a2a538f6-7ffb-4e76-94a6-776867736908)# Description
 
 This repository includes the clustering (conventional and HistStream) results of dataset **_camemBERT_pause_LSTM.pickle_**
 
@@ -16,7 +16,7 @@ This repository includes the clustering (conventional and HistStream) results of
 </p>
 
 <p align="center">
-  <img src="./ClusRes_images/hist_res.png" alt="conv_res.png">
+  <img src="./ClusRes_images/hist_res.png" alt="hist_res.png">
   <br>
   <b>Fig2. Mean results of all clustering algorithms (using proposed HistStream framework) </b>
 </p>
@@ -26,7 +26,7 @@ According to the mean results of each representation (tables above), choose the 
 - pause_simpleLSTM (7 times)
 - pctpause_doubleLSTM (1 time)
 
-Finally, $${\color{#f48522}pause\_simpleLSTM}$$ is chosen as the final representation based on CamemBERT with saved file name : _camemBERT_pause_LSTM.pickle_
+Finally, $${\color{#f48522}pause\_simpleLSTM}$$ is chosen as the final representation based on CamemBERT with saved file name : **_camemBERT_pause_LSTM.pickle_**
 
 ```python
 # Load dataset 
@@ -37,6 +37,35 @@ Finally, $${\color{#f48522}pause\_simpleLSTM}$$ is chosen as the final represent
 >>> x.shape
 ... (5051, 384)
 ```
+## Second step -- Clustering application
+
+<p align="center">
+  <img src="./ClusRes_images/conv_visualization.png" alt="conv_visualization.png">
+  <br>
+  <b> Fig3. Clustering visualization of each clustering algorithm (using convnetional approaches)</b>
+</p>
+
+<p align="center">
+  <img src="./ClusRes_images/conv_mean_Summary.png" alt="conv_mean_Summary.png">
+  <br>
+  <b>Fig4. Mean results of each clustering algorithm (using convnetional approaches) </b>
+</p>
+
+Since $${\color{#f48522}KMeans}$$ win the most, save only the clustering results of KMeans with saved file name **_camemBERT_pause_LSTM_KMeans.xlsx_** (A new column called 'label/class' is added to the original file to indicate the clustering results.)
+
+<p align="center">
+  <img src="./ClusRes_images/hist_visualization.png" alt="hist_visualization.png">
+  <br>
+  <b> Fig5. Clustering visualization of each clustering algorithm (using proposed HistStream framework)</b>
+</p>
+
+<p align="center">
+  <img src="./ClusRes_images/hist_mean_Summary.png" alt="hist_mean_Summary.png">
+  <br>
+  <b>Fig6. Mean results of each clustering algorithm (using proposed HistStream framework) </b>
+</p>
+
+Since no one win the most, according to the visulization results, save the clustering results of $${\color{#f48522}HDBSCAN\_HistStream}$$ with saved file name **_camemBERT_pause_LSTM_HDBSCAN_HistStream.xlsx_** (A new column called 'label/class' is added to the original file to indicate the clustering results.)
 
 
 

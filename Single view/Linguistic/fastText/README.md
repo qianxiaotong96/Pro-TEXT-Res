@@ -23,8 +23,9 @@ This repository includes the clustering (conventional and HistStream) results of
 
 According to the mean results of each representation (tables above), choose the one that wins the most times in the 'Best candidate':
 
-- pause_simpleLSTM (7 times)
-- pctpause_doubleLSTM (1 time)
+- pause_simpleLSTM (5 times)
+- pause_doubleLSTM (2 times)
+- pctpause_simpleLSTM (1 time)
 
 Finally, **pause_simpleLSTM** is chosen as the final representation based on fastText with saved file name : **_fastText_pause_LSTM.pickle_**
 
@@ -35,7 +36,7 @@ Finally, **pause_simpleLSTM** is chosen as the final representation based on fas
 >>> with open('fastText_pause_LSTM.pickle', 'rb') as f:
       x = pickle.load(f)
 >>> x.shape
-... (5051, 384)
+... (5051, 150)
 ```
 ## Second step -- Clustering application
 
@@ -51,7 +52,7 @@ Finally, **pause_simpleLSTM** is chosen as the final representation based on fas
   <b>Fig4. Mean results of each clustering algorithm (using convnetional approaches) </b>
 </p>
 
-Since **KMeans** win the most, save only the clustering results of KMeans with saved file name **_fastText_pause_LSTM_KMeans.xlsx_** (A new column called 'label/class' is added to the original file to indicate the clustering results.)
+Since **Agglomerative![image](https://github.com/user-attachments/assets/d3af05c4-789b-45cd-a8b2-47899a27bb6c)** win the most, save only the clustering results of KMeans with saved file name **_fastText_pause_LSTM_KMeans.xlsx_** (A new column called 'label/class' is added to the original file to indicate the clustering results.)
 
 <p align="center">
   <img src="./ClusRes_images/hist_visualization.png" alt="hist_visualization.png">

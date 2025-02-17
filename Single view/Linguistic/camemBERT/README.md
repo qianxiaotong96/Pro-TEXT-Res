@@ -65,7 +65,7 @@ Since $${\color{#f48522}KMeans}$$ win the most, save only the clustering results
   <b>Fig6. Mean results of each clustering algorithm (using proposed HistStream framework) </b>
 </p>
 
-Since no one win the most, according to the visulization results, save the clustering results of $${\color{#f48522}HDBSCAN\_HistStream}$$ with saved file name **_camemBERT_pause_LSTM_HDBSCAN_HistStream.xlsx_** (A new column called 'label/class' is added to the original file to indicate the clustering results.)
+Since no one win the most, according to the visulization results, save the clustering results of $${\color{#f48522}HDBSCAN$\_$HistStream}$$ with saved file name **_camemBERT_pause_LSTM_HDBSCAN_HistStream.xlsx_** (A new column called 'label/class' is added to the original file to indicate the clustering results.)
 
 ## Summary
 ```

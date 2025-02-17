@@ -2,7 +2,7 @@
 
 This repository includes the clustering (conventional and HistStream) results of dataset **_camemBERT_pause_LSTM.pickle_**
 
-## First step -- select final dataset to apply clustering
+## First step -- Select the final representative dataset for clustering application.
 
 - **_camemBERT_pause_LSTM_** : dataset obtained by applying $${\color{#326a95}camamBERT+LSTM}$$ as burst embedding model, trained to predict pause duration ($${\color{#326a95}pause}$$);
 - **_camemBERT_pause_BiLSTM_** : dataset obtained by applying $${\color{#326a95}camamBERT+BiLSTM}$$ as burst embedding model, trained to predict pause duration ($${\color{#326a95}pause}$$);
@@ -26,7 +26,7 @@ According to the mean results of each representation (tables above), choose the 
 - pause_simpleLSTM (7 times)
 - pctpause_doubleLSTM (1 time)
 
-Finally, pause_simpleLSTM is chosen as the final representation based on CamemBERT with saved file name : _camemBERT_pause_LSTM.pickle_
+Finally, $${\color{#f48522}pause_simpleLSTM}$$ is chosen as the final representation based on CamemBERT with saved file name : _camemBERT_pause_LSTM.pickle_
 
 
 

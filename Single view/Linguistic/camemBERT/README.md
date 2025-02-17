@@ -53,8 +53,6 @@ Finally, **pause_simpleLSTM** is chosen as the final representation based on Cam
 
 **KMeans** win the most, save the clustering results in the file named **_camemBERT_pause_LSTM_KMeans.xlsx_** 
 
-(A new column called 'label/class' is added to the original file to indicate the clustering results.)
-
 <p align="center">
   <img src="./ClusRes_images/hist_visualization.png" alt="hist_visualization.png">
   <br>
@@ -69,12 +67,12 @@ Finally, **pause_simpleLSTM** is chosen as the final representation based on Cam
 
 Since no one win the most, according to the visulization results, save the clustering results of **HDBSCAN_HistStream** with saved file name **_camemBERT_pause_LSTM_HDBSCAN_HistStream.xlsx_** 
 
-(A new column called 'label/class' is added to the original file to indicate the clustering results.)
-
 ## Summary
 
 - Burst embedding results for use : **_camemBERT_pause_LSTM.pickle_**   
 - Clustering results : **_camemBERT_pause_LSTM_KMeans.xlsx_** and **_camemBERT_pause_LSTM_HDBSCAN_HistStream.xlsx_**
+
+($$\color{blue}{A new column called 'label/class' is added to the original file to indicate the clustering results.}$$)
 
 
 

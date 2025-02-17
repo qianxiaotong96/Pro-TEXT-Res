@@ -7,3 +7,5 @@ The ANR ProTEXT project (N° ANR-18-CE23-0024-01) is an interdisciplinary resear
 More details about the project can be found at: https://pro-text.huma-num.fr/.
 
 This repository focuses on the application of clustering techniques to one of the ProTEXT datasets, "planification_seuils_persos_07_12_21.xlsx", with an emphasis on the pre-processing (word/burst embedding) and clustering of both single-view and multi-view data.
+
+./Single view/Linguistic/

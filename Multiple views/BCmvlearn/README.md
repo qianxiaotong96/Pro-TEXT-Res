@@ -4,72 +4,44 @@ This repository includes the best multi-view clustering results of all the MvDat
 
 ## First step -- Select the best clustering results by each index.
 
-- Best mean_CHI : **BCmvlearn++** on **_MvProTEXT_10_** dataset with 
-- Best mean_SI : **
-- Best mean_DBI :
+<p align="center">
+  <img src="./ClusRes_images/mv_res.png" alt="conv_res.png">
+  <br>
+  <b>Fig1. The best 3 clustering results of each evaluation metric in different cases</b>
+</p>
+
+According to the results in the table above we choose to save 3 clustering results regarding to each clustering evaluation metric.
+
+- Best mean_CHI : **BCmvlearn++** on **_MvProTEXT_10_** dataset with **10** clusters found
+- Best mean_SI : **BCmvlearn** on **_MvProTEXT_15_** dataset with **4** clusters found
+- Best mean_DBI : **BCmvlearn** on **_MvProTEXT_8_** dataset with **4** clusters found
   
+## Second step -- Clustering visualization
+
 <p align="center">
-  <img src="./ClusRes_images/conv_res.png" alt="conv_res.png">
+  <img src="./ClusRes_images/BCmvlearn++10_mvProTEXT_10_visualization.png" alt="BCmvlearn++10_mvProTEXT_10_visualization.png">
   <br>
-  <b>Fig1. Mean results of all clustering algorithms (using convnetional approaches)</b>
+  <b>Fig2. t_SNE visualization of BCmvlearn++ clustering results on "MvProTEXT_10" with 10 clusters founded and best mean_CHI score</b>
 </p>
 
 <p align="center">
-  <img src="./ClusRes_images/hist_res.png" alt="hist_res.png">
+  <img src="./ClusRes_images/BCmvlearn4_mvProTEXT_15_visualization.png" alt="BCmvlearn4_mvProTEXT_15_visualization.png">
   <br>
-  <b>Fig2. Mean results of all clustering algorithms (using proposed HistStream framework)</b>
-</p>
-
-According to the mean results of each representation (tables above), choose the one that wins the most times in the 'Best candidate':
-
-- pause_simpleLSTM (7 times)
-- pctpause_doubleLSTM (1 time)
-
-Finally, **pause_simpleLSTM** is chosen as the final representation based on CamemBERT with saved file name : **_camemBERT_pause_LSTM.pickle_**
-
-```python
-# Load dataset 
-
->>> import pickle
->>> with open('camemBERT_pause_LSTM.pickle', 'rb') as f:
-      x = pickle.load(f)
->>> x.shape
-... (5051, 384)
-```
-## Second step -- Clustering application
-
-<p align="center">
-  <img src="./ClusRes_images/conv_visualization.png" alt="conv_visualization.png">
-  <br>
-  <b>Fig3. Clustering visualization of each clustering algorithm (using convnetional approaches)</b>
+  <b>Fig3. t_SNE visualization of BCmvlearn clustering results on "MvProTEXT_15" with 4 clusters founded and best mean_SI score</b>
 </p>
 
 <p align="center">
-  <img src="./ClusRes_images/conv_mean_Summary.png" alt="conv_mean_Summary.png">
+  <img src="./ClusRes_images/BCmvlearn4_mvProTEXT_8_visualization.png" alt="BCmvlearn4_mvProTEXT_8_visualization.png">
   <br>
-  <b>Fig4. Mean results of each clustering algorithm (using convnetional approaches)</b>
+  <b>Fig4. t_SNE visualization of BCmvlearn clustering results on "MvProTEXT_8" with 4 clusters founded and best mean_DBI score</b>
 </p>
 
-**KMeans** win the most, save the clustering results in the file named **_camemBERT_pause_LSTM_KMeans.xlsx_** 
 
-<p align="center">
-  <img src="./ClusRes_images/hist_visualization.png" alt="hist_visualization.png">
-  <br>
-  <b>Fig5. Clustering visualization of each clustering algorithm (using proposed HistStream framework)</b>
-</p>
+The best clustering results are saved in the file named 
 
-<p align="center">
-  <img src="./ClusRes_images/hist_mean_Summary.png" alt="hist_mean_Summary.png">
-  <br>
-  <b>Fig6. Mean results of each clustering algorithm (using proposed HistStream framework)</b>
-</p>
-
-Since no one win the most, according to the visulization results, save the clustering results of **HDBSCAN_HistStream** with saved file name **_camemBERT_pause_LSTM_HDBSCAN_HistStream.xlsx_** 
-
-## Summary
-
-- Burst embedding results for use : **_camemBERT_pause_LSTM.pickle_**   
-- Clustering results : **_camemBERT_pause_LSTM_KMeans.xlsx_** and **_camemBERT_pause_LSTM_HDBSCAN_HistStream.xlsx_**
+- **_BCmvlearn++10_mvProTEXT_10.xlsx_**
+- **_BCmvlearn4_mvProTEXT_15.xlsx_**
+- **_BCmvlearn4_mvProTEXT_8.xlsx_**
 
 ($\color{red}{\text{The clustering result files contain the original dataset information and a new column called 'label/class' which indicates the clustering results.}}$) 
 

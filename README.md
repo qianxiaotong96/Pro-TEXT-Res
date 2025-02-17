@@ -1,4 +1,5 @@
-# Clustering results of project Pro-TEXT (including word/burst embedding results)
+# Clustering results of project Pro-TEXT 
+# (including word/burst embedding results)
 
 ## Introduction
 

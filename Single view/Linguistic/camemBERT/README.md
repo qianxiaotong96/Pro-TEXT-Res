@@ -10,5 +10,5 @@ This repository includes the clustering (conventional and HistStream) results of
 - **_camemBERT_pctpause_BiLSTM.xlsx_** : dataset obtained by applying $${\color{#326a95}camamBERT+BiLSTM}$$ as burst embedding model, trained to predict percentage of the pause duration ($${\color{#326a95}pctpause}$$);
 
 ![img](./ClusRes_images/conv_res.png)
-_Fig1. Mean results of all clustering algorithms (using convnetional approaches)_
+*_Fig1. Mean results of all clustering algorithms (using convnetional approaches)_*
 

@@ -51,7 +51,8 @@ Finally, **pause_simpleLSTM** is chosen as the final representation based on Cam
   <b>Fig4. Mean results of each clustering algorithm (using convnetional approaches)</b>
 </p>
 
-Since **KMeans** win the most, save only the clustering results of KMeans with saved file name **_camemBERT_pause_LSTM_KMeans.xlsx_** (A new column called 'label/class' is added to the original file to indicate the clustering results.)
+**KMeans** win the most, save the clustering results in the file named **_camemBERT_pause_LSTM_KMeans.xlsx_** 
+(A new column called 'label/class' is added to the original file to indicate the clustering results.)
 
 <p align="center">
   <img src="./ClusRes_images/hist_visualization.png" alt="hist_visualization.png">
@@ -65,7 +66,8 @@ Since **KMeans** win the most, save only the clustering results of KMeans with s
   <b>Fig6. Mean results of each clustering algorithm (using proposed HistStream framework)</b>
 </p>
 
-Since no one win the most, according to the visulization results, save the clustering results of **HDBSCAN_HistStream** with saved file name **_camemBERT_pause_LSTM_HDBSCAN_HistStream.xlsx_** (A new column called 'label/class' is added to the original file to indicate the clustering results.)
+Since no one win the most, according to the visulization results, save the clustering results of **HDBSCAN_HistStream** with saved file name **_camemBERT_pause_LSTM_HDBSCAN_HistStream.xlsx_** 
+(A new column called 'label/class' is added to the original file to indicate the clustering results.)
 
 ## Summary
 

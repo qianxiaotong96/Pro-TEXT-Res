@@ -26,7 +26,7 @@ According to the mean results of each representation (tables above), choose the 
 - pause_simpleLSTM (7 times)
 - pctpause_doubleLSTM (1 time)
 
-Finally, $\color{red}{pause\_simpleLSTM}$ is chosen as the final representation based on CamemBERT with saved file name : **_camemBERT_pause_LSTM.pickle_**
+Finally, $\color{red}{\textsf{pause\_simpleLSTM}}$ is chosen as the final representation based on CamemBERT with saved file name : **_camemBERT_pause_LSTM.pickle_**
 
 ```python
 # Load dataset 

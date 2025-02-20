@@ -131,3 +131,7 @@ After the steps of selecting the representative dataset in Single view section, 
   <br>
   <b>Fig18. Visualization with t_SNE dimension reduction of dataset mvProTEXT_17</b>
 </p>
+
+The repository <a href="./BCmvlearn/">BCmvlearn</a> refers to the results of multi-view clustering.
+
+The repository <a href="./IMBC/">IMBC</a> refers to the results of incremental multi-view clustering.

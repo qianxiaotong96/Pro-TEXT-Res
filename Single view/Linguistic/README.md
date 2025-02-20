@@ -1,6 +1,6 @@
 This repository includes results of Linguistic view, presented by different burst embedding approaches :
 
-- <a href="./camemBEERT/">camemBEERT</a>
+- <a href="./camemBERT/">camemBERT</a>
 - <a href="./fastText/">fastText</a>
 - <a href="./word2vec/">word2vec</a>
 
